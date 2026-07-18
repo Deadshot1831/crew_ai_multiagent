@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# CrewAI runtime storage (memory/cache databases)
+db/
+*.db
+*.sqlite3
+
+# Generated output
+blog.md
+
+# OS / editor
+.DS_Store
+.vscode/
