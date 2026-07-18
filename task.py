@@ -21,7 +21,7 @@ write_task= Task(
     """,
     expected_output='A comprehensive blog on the given topic {topic}',
     tools=[yt_tool],
-    agents=[blog_writer],
+    agent=[blog_writer],
     async_execution=False,
     output_file='blog.md',
     )
