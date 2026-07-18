@@ -10,7 +10,7 @@ research_task = Task(
     ),
     expected_output='A comprehensive 3 Paragraph long report based on the topic{topic} of the video',
     tools=[yt_tool],
-    agents=[blog_researcher],
+    agent=[blog_researcher],
     
 )
 # Writing Task with language model configuration
